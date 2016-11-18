@@ -1,0 +1,21 @@
+[
+    { "acceleration" : [
+      { "x":0.009 , "unit":"m/s²" },
+      { "y":0.01 , "unit":"m/s²" },
+      { "z":9.81 , "unit":"m/s²" },
+      { "time":10, "unit":"µs"}
+    ]},
+    { "angular velocity" : [
+      { "x":0.009 , "unit":"m/s" },
+      { "y":0.01 , "unit":"m/s" },
+      { "z":9.81 , "unit":"m/s" },
+      { "time":10, "unit":"µs"}
+    ]},
+    { "magnetic field" : [
+      { "x":0.009 , "unit":"µT" },
+      { "y":0.01 , "unit":"µT" },
+      { "z":9.81 , "unit":"µT" },
+      { "time":10, "unit":"µs"}
+    ]}
+]
+

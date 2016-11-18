@@ -1,0 +1,5 @@
+[
+  {"name":"capacity","value":99.9, "unit":"%"},
+  {"name":"current","value":1.234, "unit":"mA"},
+  {"name":"time","value":10, "unit":"µs"}
+]

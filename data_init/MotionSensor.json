@@ -1,0 +1,75 @@
+[
+  {"tbName":"Battery Monitor", "tbHead":["Signal","x","y","z","time"]},
+  {
+    "tbRows": [
+      {
+        "name": "acceleration",
+        "cells": [
+          {
+            "value": 0,
+            "unit": "m/s²"
+          },
+          {
+            "value": 0.01,
+            "unit": "m/s²"
+          },
+          {
+            "value": 0,
+            "unit": "m/s²"
+          },
+          {
+            "value": 0,
+            "unit": "µs"
+          }
+        ]
+      },
+      {
+        "name": "angular velocity",
+        "cells": [
+          {
+            "value": 0,
+            "unit": "m/s"
+          },
+          {
+            "value": 0,
+            "unit": "m/s"
+          },
+          {
+            "value": 0,
+            "unit": "m/s"
+          },
+          {
+            "value": 0,
+            "unit": "µs"
+          }
+        ]
+      },
+      {
+        "name": "magnetic field",
+        "cells": [
+          {
+            "name": "x",
+            "value": 0,
+            "unit": "µT"
+          },
+          {
+            "name": "y",
+            "value": 0,
+            "unit": "µT"
+          },
+          {
+            "name": "z",
+            "value": 9,
+            "unit": "µT"
+          },
+          {
+            "name": "time",
+            "value": 0,
+            "unit": "µs"
+          }
+        ]
+      }
+    ]
+  }
+]
+

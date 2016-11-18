@@ -1,0 +1,5 @@
+[
+    {"name":"Motion Sensor", "Type":"MPU-9250"},
+    {"name":"Pressure Sensor", "Type":"LPS25HBTR"},
+    {"name":"Battery Monitor", "Type":"BQ27441DRZR-G1A"}
+]

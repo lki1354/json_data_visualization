@@ -1,0 +1,8 @@
+[
+  {"tbName":"Battery Monitor", "tbHead":["Signal","Value"]},
+  {"tbRows":[
+    {"name":"capacity","cells":[{"value":0, "unit":"%"}]},
+    {"name":"current","cells":[{"value":0, "unit":"mA"}]},
+    {"name":"time","cells":[{"value":0, "unit":"µs"}]}
+  ]}
+]
