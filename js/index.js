@@ -14,6 +14,7 @@ function createTableFromJson(data) {
       thead = table.createTHead(),
       tbody = document.createElement('tbody'),
       i,x;
+  table.setAttribute('class',"rwd-table");
 //table.appendChild(thead)
   var rowhead = thead.insertRow(0);
     for (var thCell in data[0].tbHead) {
@@ -26,13 +27,15 @@ function createTableFromJson(data) {
     tbody.insertRow(row);
       tbody.rows[row].insertCell(0);
       tbody.rows[row].cells[0].appendChild(document.createTextNode(dataRows[row].name));
+      tbody.rows[row].cells[0].setAttribute('data-th',data[0].tbHead[0] );
     for (var tdCell in dataRows[row].cells) {
       var cell_point = Number(tdCell)+1;
       console.log(cell_point);
       tbody.rows[row].insertCell(cell_point);
         var node = document.createTextNode(dataRows[row].cells[tdCell].value+dataRows[row].cells[tdCell].unit);
       var id_value = dataRows[row].name+"."+data[0].tbHead[cell_point];
-        tbody.rows[row].cells[cell_point].id=id_value;
+        tbody.rows[row].cells[cell_point].setAttribute('id',id_value);
+      tbody.rows[row].cells[cell_point].setAttribute('data-th',data[0].tbHead[cell_point]);
       tbody.rows[row].cells[cell_point].appendChild(node);
     }
   }
